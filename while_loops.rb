@@ -66,10 +66,8 @@
 # end
 
 # 10
-number = 1
+number = 2
 while number <= 40
-  if number.even?
-    p number
-  end
-  number += 1
+  p number
+  number += 2
 end

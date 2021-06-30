@@ -35,7 +35,7 @@
 
 # 6
 # while true
-#   print "Enter a number less than 10. To quit, enter a number greater than 10. "
+#   print "Enter a number less than 10. To quit, enter a number greater than 10."
 #   number = gets.chomp.to_i
 #   if number > 10
 #     break
@@ -57,17 +57,17 @@
 # end
 
 # 9
-# while true
-#   print "Enter a word. To quit, enter a word with more than 5 letters. "
-#   word = gets.chomp.downcase
-#   if word.length > 5
-#     break
-#   end
-# end
+while true
+  print "Enter a word. To quit, enter a word with more than 5 letters. "
+  word = gets.chomp
+  if word.length > 5
+    break
+  end
+end
 
 # 10
-number = 2
-while number <= 40
-  p number
-  number += 2
-end
+# number = 2
+# while number <= 40
+#   p number
+#   number += 2
+# end
